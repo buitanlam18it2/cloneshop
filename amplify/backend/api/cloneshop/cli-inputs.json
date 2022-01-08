@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "cloneshop",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "D:\\ReactNative\\cloneshop\\amplify\\backend\\api\\cloneshop\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      },
+      "perModelResolutionStrategy": [
+        {
+          "resolutionStrategy": {
+            "type": "AUTOMERGE"
+          },
+          "entityName": "Product"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "AUTOMERGE"
+          },
+          "entityName": "CartProduct"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "AUTOMERGE"
+          },
+          "entityName": "OrderProduct"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "AUTOMERGE"
+          },
+          "entityName": "Order"
+        }
+      ]
+    }
+  }
+}

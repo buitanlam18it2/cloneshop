@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cloneshop-dev-120832-authRole",
+      "UnauthRoleArn": "arn:aws:iam::683412754896:role/amplify-cloneshop-dev-120832-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::683412754896:role/amplify-cloneshop-dev-120832-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cloneshop-dev-120832-deployment",
+      "UnauthRoleName": "amplify-cloneshop-dev-120832-unauthRole",
+      "StackName": "amplify-cloneshop-dev-120832",
+      "StackId": "arn:aws:cloudformation:us-east-1:683412754896:stack/amplify-cloneshop-dev-120832/bd059670-5264-11ec-b55c-0e733181096b",
+      "AmplifyAppId": "ddghi1wx710nn"
+    },
+    "categories": {
+      "auth": {
+        "cloneshop33711456": {}
+      }
+    }
+  }
+}
